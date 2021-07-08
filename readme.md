@@ -31,6 +31,10 @@ Run `gradlew generateTemplates`.
 Open `resources/bearded-arc.theme.json` in intelliJ and click the preview theme button 
 on the top left.
 
+TIP: install the [Color Highlighter plugin](https://plugins.jetbrains.com/plugin/13309-color-highlighter)
+
+[Jetbrains theme documentation](https://plugins.jetbrains.com/docs/intellij/themes-intro.html)
+
 ## In construction
 
 This is a very early build.
@@ -45,3 +49,12 @@ It is also not meant to be a perfect adaptation of the vscode theme.
 
 Your help is welcome. The main task right now is to identify weird editor colors and
 editing `templates/one-dark.template.xml` to fix.
+
+## TODO
+
+- Tweak values in templates
+- Check the references for variations, missing properties:
+  - [HighContrast.theme.json](https://upsource.jetbrains.com/idea-ce/file/idea-ce-17812b1102973a61b8b73ee7fdbea12cf8036cd6/platform/platform-resources/src/themes/HighContrast.theme.json)
+  - [highContrastScheme.xml](https://upsource.jetbrains.com/idea-ce/file/idea-ce-17812b1102973a61b8b73ee7fdbea12cf8036cd6/platform/platform-resources/src/themes/highContrastScheme.xml)
+- Generate all the variations of themes
+- Publish :)
