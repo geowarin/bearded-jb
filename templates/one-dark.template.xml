@@ -5,7 +5,7 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="{{colors.green}}"/>
     <option name="ANNOTATIONS_COLOR" value="a0a7b4"/>
-    <option name="CARET_COLOR" value="528bff"/>
+    <option name="CARET_COLOR" value="{{colors.yellow}}"/>
     <option name="CARET_ROW_COLOR" value="2c313c"/>
     <option name="CONSOLE_BACKGROUND_KEY" value=""/>
     <option name="DELETED_LINES_COLOR" value="{{colors.salmon}}"/>
@@ -23,7 +23,7 @@
     <option name="ERROR_HINT" value="781732"/>
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="4f575f"/>
     <option name="FOLDED_TEXT_BORDER_COLOR" value=""/>
-    <option name="GUTTER_BACKGROUND" value="282c34"/>
+    <option name="GUTTER_BACKGROUND" value="{{ui.uibackground}}"/>
     <option name="HTML_TAG_TREE_LEVEL0" value="{{ui.danger}}"/>
     <option name="HTML_TAG_TREE_LEVEL1" value="{{colors.yellow}}"/>
     <option name="HTML_TAG_TREE_LEVEL2" value="{{colors.green}}"/>
@@ -2062,7 +2062,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="BACKGROUND" value="282c34"/>
+        <option name="BACKGROUND" value="{{ui.uibackground}}"/>
         <option name="FOREGROUND" value="{{ui.default}}"/>
       </value>
     </option>

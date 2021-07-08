@@ -5,9 +5,9 @@
   "editorScheme": "/bearded-arc.xml",
   "colors": {
     "accentColor": "#568AF2",
-    "backgroundColor": "#21252b",
-    "borderColor": "#333841",
-    "infoForeground": "#7e8491"
+    "backgroundColor": "{{ui.uibackgroundalt}}",
+    "borderColor": "{{ui.uiborder}}",
+    "infoForeground": "{{ui.default}}"
   },
   "ui": {
     "*": {
