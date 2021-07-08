@@ -1,0 +1,3 @@
+[submodule "bearded-theme"]
+	path = bearded-theme
+	url = https://github.com/BeardedBear/bearded-theme.git
