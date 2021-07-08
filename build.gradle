@@ -8,15 +8,12 @@ version '1.0-SNAPSHOT'
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version '2021.1.1'
+    version 'LATEST-EAP-SNAPSHOT'
+    patchPluginXml {
+        sinceBuild = '201.5985.32'
+    }
 }
 
 repositories {
     mavenCentral()
 }
-
-//patchPluginXml {
-//    changeNotes """
-//      Add change notes here.<br>
-//      <em>most HTML tags may be used</em>"""
-//}
