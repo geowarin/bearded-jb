@@ -22,6 +22,15 @@ Run `gradlew buildPlugin` this will generate a zip in `build/distributions/`
 
 Install it in Intellij.
 
+## Iterate on the theme
+
+Change the templates.
+
+Run `gradlew generateTemplates`.
+
+Open `resources/bearded-arc.theme.json` in intelliJ and click the preview theme button 
+on the top left.
+
 ## In construction
 
 This is a very early build.
