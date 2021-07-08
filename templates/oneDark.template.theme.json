@@ -1,8 +1,8 @@
 {
-  "name": "One Dark",
+  "name": "Bearded Arc",
   "dark": true,
   "author": "Mark Skelton",
-  "editorScheme": "/themes/one_dark.xml",
+  "editorScheme": "/bearded-arc.xml",
   "colors": {
     "accentColor": "#568AF2",
     "backgroundColor": "#21252b",
