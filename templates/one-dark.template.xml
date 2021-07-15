@@ -1,7 +1,4 @@
-<scheme name="Bearded Arc" parent_scheme="Darcula" version="142">
-  <metaInfo>
-    <property name="oneDarkScheme">runtimeGenerated</property>
-  </metaInfo>
+<scheme name="{{fullName themeName}}" parent_scheme="Darcula" version="142">
   <colors>
     <option name="ADDED_LINES_COLOR" value="{{colors.green}}"/>
     <option name="ANNOTATIONS_COLOR" value="a0a7b4"/>
@@ -24,7 +21,7 @@
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="4f575f"/>
     <option name="FOLDED_TEXT_BORDER_COLOR" value=""/>
     <option name="GUTTER_BACKGROUND" value="{{ui.uibackground}}"/>
-    <option name="HTML_TAG_TREE_LEVEL0" value="{{ui.danger}}"/>
+    <option name="HTML_TAG_TREE_LEVEL0" value="{{levels.danger}}"/>
     <option name="HTML_TAG_TREE_LEVEL1" value="{{colors.yellow}}"/>
     <option name="HTML_TAG_TREE_LEVEL2" value="{{colors.green}}"/>
     <option name="HTML_TAG_TREE_LEVEL3" value="{{colors.turquoize}}"/>
@@ -253,7 +250,7 @@
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{colors.salmon}}"/>
+        <option name="FOREGROUND" value="{{levels.danger}}"/>
       </value>
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
@@ -296,13 +293,13 @@
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{colors.salmon}}"/>
+        <option name="FOREGROUND" value="{{colors.red}}"/>
         <option name="FONT_TYPE" value="%bold%"/>
       </value>
     </option>
     <option name="CONSOLE_RED_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="{{colors.salmon}}"/>
+        <option name="FOREGROUND" value="{{colors.red}}"/>
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
@@ -598,7 +595,7 @@
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="EFFECT_COLOR" value="{{ui.danger}}"/>
+        <option name="EFFECT_COLOR" value="{{levels.danger}}"/>
         <option name="FOREGROUND" value="{{colors.turquoize}}"/>
         <option name="EFFECT_TYPE" value="2"/>
       </value>
@@ -767,8 +764,8 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="{{ui.danger}}"/>
-        <option name="ERROR_STRIPE_COLOR" value="{{ui.danger}}"/>
+        <option name="EFFECT_COLOR" value="{{levels.danger}}"/>
+        <option name="ERROR_STRIPE_COLOR" value="{{levels.danger}}"/>
         <option name="EFFECT_TYPE" value="2"/>
       </value>
     </option>
@@ -1244,7 +1241,7 @@
     </option>
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="{{ui.danger}}"/>
+        <option name="EFFECT_COLOR" value="{{levels.danger}}"/>
       </value>
     </option>
     <option name="LOCALE.MSGCTXT_KEYWORD">
@@ -1407,7 +1404,7 @@
     </option>
     <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="{{ui.danger}}"/>
+        <option name="EFFECT_COLOR" value="{{levels.danger}}"/>
         <option name="EFFECT_TYPE" value="3"/>
       </value>
     </option>
@@ -1562,7 +1559,7 @@
     <option baseAttributes="DEFAULT_LOCAL_VARIABLE" name="PHP_VAR"/>
     <option name="PROPERTIES.INVALID_STRING_ESCAPE">
       <value>
-        <option name="EFFECT_COLOR" value="{{ui.danger}}"/>
+        <option name="EFFECT_COLOR" value="{{levels.danger}}"/>
         <option name="FOREGROUND" value="{{colors.turquoize}}"/>
         <option name="EFFECT_TYPE" value="2"/>
       </value>
@@ -1819,7 +1816,7 @@
     </option>
     <option name="RUBY_INVALID_ESCAPE_SEQUENCE">
       <value>
-        <option name="EFFECT_COLOR" value="{{ui.danger}}"/>
+        <option name="EFFECT_COLOR" value="{{levels.danger}}"/>
         <option name="FOREGROUND" value="{{colors.turquoize}}"/>
         <option name="EFFECT_TYPE" value="2"/>
       </value>
@@ -1868,7 +1865,7 @@
     <option name="RUNTIME_ERROR">
       <value>
         <option name="EFFECT_COLOR" value="ff8c00"/>
-        <option name="ERROR_STRIPE_COLOR" value="{{ui.danger}}"/>
+        <option name="ERROR_STRIPE_COLOR" value="{{levels.danger}}"/>
         <option name="EFFECT_TYPE" value="5"/>
       </value>
     </option>
@@ -2116,7 +2113,7 @@
     </option>
     <option name="Unresolved reference access">
       <value>
-        <option name="EFFECT_COLOR" value="{{ui.danger}}"/>
+        <option name="EFFECT_COLOR" value="{{levels.danger}}"/>
         <option name="EFFECT_TYPE" value="2"/>
       </value>
     </option>
@@ -2161,8 +2158,8 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="{{ui.danger}}"/>
-        <option name="ERROR_STRIPE_COLOR" value="{{ui.danger}}"/>
+        <option name="EFFECT_COLOR" value="{{levels.danger}}"/>
+        <option name="ERROR_STRIPE_COLOR" value="{{levels.danger}}"/>
         <option name="EFFECT_TYPE" value="2"/>
       </value>
     </option>

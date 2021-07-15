@@ -1,8 +1,8 @@
 {
-  "name": "Bearded Arc",
+  "name": "{{fullName themeName}}",
   "dark": true,
-  "author": "Mark Skelton",
-  "editorScheme": "/bearded-arc.xml",
+  "author": "Geoffroy Warin",
+  "editorScheme": "/{{themeName}}.xml",
   "colors": {
     "accentColor": "#568AF2",
     "backgroundColor": "{{ui.uibackgroundalt}}",

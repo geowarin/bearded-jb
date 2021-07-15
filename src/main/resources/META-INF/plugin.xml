@@ -1,10 +1,10 @@
 <idea-plugin>
-    <id>org.example.bearded-jb</id>
+    <id>com.geowarin.bearded-jb</id>
     <name>Bearded-Theme</name>
     <vendor email="code@geowarin.com" url="https://geowarin.github.io">geowarin</vendor>
 
     <description><![CDATA[
-    Bearded themes for intellij. Inspired by
+    Bearded themes for intellij. Inspired by https://github.com/BeardedBear/bearded-theme
     ]]></description>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
@@ -12,6 +12,9 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="816fa540-63c2-42f3-8d07-07da4f4515c1" path="/bearded-arc.theme.json"/>
+        <themeProvider id="816fa540-63c2-42f3-8d07-07da4f4515c1" path="/arc.theme.json"/>
+        <themeProvider id="e197422b-6eef-47ef-a5ca-10fd7a9a4ffc" path="/arc-blueberry.theme.json" />
+        <themeProvider id="8eb7205d-726b-4f57-b207-28de74da3bc2" path="/arc-eggplant.theme.json" />
+        <themeProvider id="eab184d9-9237-4082-86a2-cb6107ed69c7" path="/arc-eolstorm.theme.json" />
     </extensions>
 </idea-plugin>
