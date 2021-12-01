@@ -13,6 +13,7 @@ intellij {
     patchPluginXml {
         sinceBuild = '201.5985.32'
     }
+    updateSinceUntilBuild = false
 }
 
 task generateTemplates(type: NpmTask) {
@@ -24,6 +25,7 @@ node {
 }
 
 processResources.dependsOn(generateTemplates)
+generateTemplates.dependsOn(npm_install)
 
 repositories {
     mavenCentral()

@@ -1,3 +1,4 @@
 build/
 .gradle/
 templates/node_modules/
+src/main/resources/arc*
